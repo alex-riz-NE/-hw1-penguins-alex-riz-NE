@@ -1,4 +1,6 @@
 import matplotlib.pyplot as plt
+from readit_all import readit_all
+from process import process
 
 data = readit_all()
 X, Y, Z = process(data)
@@ -16,5 +18,11 @@ for s in species:
 
   plt.scatter(X_subset, Y_subset, label=s)
 
+plt.xlabel('Bill Length (mm)')
+plt.ylabel('Flipper Length (mm)')
+plt.title('Species by Bill and Flipper Length')
 plt.legend()
 plt.show()
+
+
+plt.savefig("figs/penguin.png")
