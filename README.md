@@ -2,7 +2,7 @@
 
 The first homework assignment where we learn how to make graphs usng various plotting techniques and how to interface git.
 
-## updating a repo
+## Clone the repo
 
 First clone it.
 
