@@ -51,3 +51,12 @@ conda activate demo
 make app
 conda deactivate
 ```
+
+Then you can remove the data:
+```
+make clean
+```
+
+
+
+
