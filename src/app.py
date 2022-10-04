@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from readit_all import readit_all
 from process import process
 
-data = readit_all()
+data = readit_all("data/penguins.csv")
 X, Y, Z = process(data)
 z_label = "species"
 species = set([d[z_label] for d in data])
@@ -22,7 +22,7 @@ plt.xlabel('Bill Length (mm)')
 plt.ylabel('Flipper Length (mm)')
 plt.title('Species by Bill and Flipper Length')
 plt.legend()
-plt.show()
 
 
 plt.savefig("figs/penguin.png")
+plt.show()
