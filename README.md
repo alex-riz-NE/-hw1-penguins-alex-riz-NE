@@ -4,10 +4,12 @@ The first homework assignment where we learn how to make graphs usng various plo
 
 ## Clone the repo
 
-First clone it.
+First clone it and navigate to directory
 
 ```
 git clone https://github.com/alex-riz-NE/hw1-penguins-alex-riz-NE.git
+
+cd hw1-penguins-alex-riz-NE
 ```
 
 ### Reproducibility
